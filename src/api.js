@@ -1,7 +1,8 @@
 // src/api.js
 import axios from "axios";
 
-const API_BASE = "http://localhost:5001/api/seats";
+// ✅ Replace localhost with your deployed backend URL
+const API_BASE = "https://train-seat-booking-zwvd.onrender.com/api/seats";
 
 export const fetchSeats = async () => {
   try {
